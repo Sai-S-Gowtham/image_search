@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.main-container {
+  font-family: "Roboto";
+  ;
+}
+
+.wiki-search-header {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d5cdcd;
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  margin-bottom: 40px;
+
+  
+}
+.search-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height:50px;
+}
+.heading{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+
+
+}
+
+.wiki-logo {
+  margin-bottom: 30px;
+  width: 150px;
+}
+.btn{
+  height:45px;
+  width:100px;
+  background-color: lightblue;
+  border-radius: 12px;
+  border-color: black;
+}
+
+.search-input {
+  font-size: 18px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d5cdcd;
+  border-radius: 3px;
+  padding: 10px;
+  margin-right: 20px;
+  margin-left: 5px;
+  margin-bottom:5px;
+  align-items: center;
+}
+
+.search-results {
+  height:100vh;
+  width: 100%;
+  background-size: cover;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #ffffff;
+  margin: 2px;
+}
+
+.result-item {
+  height:250px;
+  width:350px;
+  background-color: azure;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.img-size{
+  height:100%;
+  width:100%;
+}
+
+.result-title {
+  font-size: 22px;
+}
+
+.link-description {
+  color: #444444;
+  font-size: 15px;
+}
+
+.result-url {
+  color: #006621;
+  text-decoration: none;
+}
